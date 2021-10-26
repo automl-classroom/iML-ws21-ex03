@@ -11,7 +11,7 @@ conda activate iML
 
 3. Install requirements with `pip install -r requirements.txt`.
 4. Add your code in all `tasks/*.py` files according to the exercise sheet. You can run them with `python tasks/*.py`. All functions are called automatically.
-5. Test your code or specific files with `pytest tests/*.py`.
+5. Test all tasks with `pytest` or specific files with `pytest tests/test_*.py`.
 6. Push your solution to your repository.
 
 Code is tested on Linux and Mac only. Testing is not guaranteed to work on Windows or VMs.
