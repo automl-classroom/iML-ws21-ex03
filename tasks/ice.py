@@ -52,6 +52,7 @@ def plot_ice(model, dataset, X, s, centered=False):
     Parameters:
         model: Classifier which can call a predict method.
         dataset (utils.Dataset): Used dataset to train the model. Used to receive the labels.
+        X (np.array with shape (num_instances, num_features)): Input data.
         s (int): Index of the feature x_s.
         centered (bool): Whether c-ICE should be used or not.
         
